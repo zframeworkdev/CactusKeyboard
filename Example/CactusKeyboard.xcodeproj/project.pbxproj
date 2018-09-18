@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* CactusKeyboard_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CactusKeyboard_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		750FEB21CEB988B5F155DD74 /* CactusKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CactusKeyboard.podspec; path = ../CactusKeyboard.podspec; sourceTree = "<group>"; };
+		750FEB21CEB988B5F155DD74 /* CactusKeyboard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CactusKeyboard.podspec; path = ../CactusKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7B051AA44CE23D67E2F3101A /* Pods-CactusKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Tests/Pods-CactusKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A016160840EE4A979A8B95F8 /* Pods-CactusKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Example/Pods-CactusKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B03709493F57B8D708DF8160 /* Pods_CactusKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CactusKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C987BC039BFA8FF8DD893546 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C987BC039BFA8FF8DD893546 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEB868C594D8CFA9EBECACE0 /* Pods-CactusKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Example/Pods-CactusKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D0EDBEA5E80688B41FC6CC14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0EDBEA5E80688B41FC6CC14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9F03795025B27EDA6A8A6B1 /* Pods-CactusKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CactusKeyboard_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CactusKeyboard_Tests/Pods-CactusKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -266,15 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CactusKeyboard_Example/Pods-CactusKeyboard_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CactusKeyboard/CactusKeyboard.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CactusKeyboard.framework",
 			);
@@ -288,15 +284,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CactusKeyboard_Tests-checkManifestLockResult.txt",
 			);
@@ -310,15 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CactusKeyboard_Example-checkManifestLockResult.txt",
 			);

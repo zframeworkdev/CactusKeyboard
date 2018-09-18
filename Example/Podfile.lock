@@ -1,0 +1,16 @@
+PODS:
+  - CactusKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - CactusKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  CactusKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CactusKeyboard: 2a4f9615c9c7e467afd60d45a6d71963092e0317
+
+PODFILE CHECKSUM: b5881e2a13bd367a6306fd3505aafa4eb7d9dea1
+
+COCOAPODS: 1.5.3
